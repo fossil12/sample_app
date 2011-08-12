@@ -1,5 +1,7 @@
 SampleApp2::Application.routes.draw do
 	
+  get "sessions/new"
+
 	resources :users	
 
 	root :to => 'pages#home'  
