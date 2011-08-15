@@ -165,6 +165,15 @@ div.field, div.actions {
 	list-style: square;
 }
 
+/* All users */
+ul.users {
+	margin-top: 1em;
+}
+
+.users li {
+	list-style: none;
+}
+
 /* Round corners */
 .round {
 	-webkit-border-radius: 10px;
